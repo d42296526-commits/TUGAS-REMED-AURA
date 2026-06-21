@@ -101,3 +101,10 @@ window.onload = function () {
     });
   }
 };
+
+document.addEventListener("click", () => {
+  const music = document.getElementById("bg-music");
+  if (music) {
+    music.play();
+  }
+}, { once: true });
